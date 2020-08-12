@@ -19,22 +19,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/mobile_navigation" />
 
-    <com.google.android.material.tabs.TabLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark"
-        android:id="@+id/tab_Layout"
-        app:tabIndicatorFullWidth="true"
-        app:tabIndicatorGravity="center"
-        app:tabTextColor="@color/colorAccent"
-        app:tabIndicatorHeight="40dp"
-        app:tabIndicatorColor="#009688"
-        app:tabIndicator="@drawable/tab_indicator"/>
 
-    <androidx.viewpager.widget.ViewPager
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/viewPager" >
-    </androidx.viewpager.widget.ViewPager>
+
 
 </LinearLayout>
